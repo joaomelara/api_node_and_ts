@@ -1,8 +1,8 @@
 
 import { server } from './server/Server';
 
-const PORT = 3000;
 
-server.listen(PORT, () => {
-    console.log("FUNFOU");
+
+server.listen(process.env.PORT||3333, () => {
+    console.log(`FUNFOU na porta ${process.env.PORT||3333}`);
 })

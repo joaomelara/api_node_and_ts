@@ -1,4 +1,4 @@
-import express from 'express';
+
 import { server } from './server/Server';
 
 const PORT = 3000;

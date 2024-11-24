@@ -2,8 +2,12 @@ import express from 'express';
 
 const server = express();
 
-server.get("/", (req, res)=>{
+interface Teste {
+
+}
+
+server.get("/", (req, res) => {
     res.send("opa");
 })
 
-export {server}
+export { server }
